@@ -1,36 +1,141 @@
-body{
-	background-color:purple;
+#header{
+	background-color:black;/*color of header*/
+	height:125px;
+	width:100%;/*size of header*/
+	overflow-x:hidden;
+	color:white;/*text color*/
+}
+#headerText{
+	position:relative;
+	text-align:center;
+	font-size:40px;/*font size*/
+	font-family: 'Lucida Console', 'Monaco', 'monospace'
 }
 
-#div1{
-	position: absolute;
-	top: 25px;
-	left: 200px;
-	height: 900px;
-	width: 900px;
-	background-color:red;
-	margin-left: auto;
-	margin-right: auto;
+#jumbotron{
+	position:absolute;
+  background-image:url("raps.jpg");
+	height:100%;
+  width:100%;
+  background-size:contain;
+  background-repeat:no-repeat;
 }
 
-#div2{
-	position: absolute;
-	left: 25px;
-	right: 200px;
-	height: 900px;
-	width: 900px;
-	background-color:red;
-	margin-left:auto;
-	margin-right:auto;
+#navbar{
+	position:relative;
+	top:100px;
+  left:-30px;
+  z-index:1;
 }
 
-#div3{
-	position: absolute;
-	left: 25px;
-	right: 200px;
-	height: 900px;
-	width: 900px;
-	background-color:red;
-	margin-left:auto;
-	margin-right:auto;
+#homeButton {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #FF0000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width:65px;
+  height:30px;
+  text-align:center;
+  width:65px;
+  height:30px;
+  position:relative;
+  left:100px;
+  top:-20;
 }
+
+#homeButton:hover {
+  background: #CC00FF;
+  text-decoration: none;
+}
+
+#aboutButton {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #FF0000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width:65px;
+  height:30px;
+  text-align:center;
+  width:65px;
+  height:30px;
+  position:relative;
+  left:800px;
+  top:-70px;
+}
+
+#aboutButton:hover {
+  background: #CC00FF;
+  text-decoration: none;
+}
+
+
+#contactButton {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #FF0000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width:65px;
+  height:30px;
+  text-align:center;
+  width:65px;
+  height:30px;
+  position:relative;
+  left:450px;
+  top:-120px;
+}
+
+
+#contactButton:hover {
+  background: #CC00FF;
+  text-decoration: none;
+}
+
+#footer{
+	background-color:black;
+	height:125px;
+	margin-top:1000px;
+}
+#footer #trademark{
+	color:white;
+  text-align:center;
+}
+
+#testButton{
+  position:relative;
+  height:125px;
+  width:200px;
+  background-color:red;
+  border-radius:5px;
+  left:375px;
+  color:white;
+  font-size:25;
+  font-family: 'Lucida Console', 'Monaco', 'monospace'
+}
+
+.horizBar{
+  position:relative;
+  bottom:0;
+  width:100%;
+  height:150px;
+  background-color:black;
+  opacity:.5;
+  z-index:0;
+  top:350px;
+}
+
+
